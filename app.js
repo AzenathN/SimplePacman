@@ -220,7 +220,7 @@ document.addEventListener("DOMContentLoaded", () => {
       //if the ghost is scared and is in the same space as pacman(runs into pacman)
       if (
         ghost.isScared &&
-        squares[ghost.currentIndex].classList.contains("pacman")
+        squares[ghost.currentIndex].classList.contains("pac-man")
       ) {
         squares[ghost.currentIndex].classList.remove(
           ghost.className,
