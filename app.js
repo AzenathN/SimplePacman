@@ -232,6 +232,7 @@ document.addEventListener("DOMContentLoaded", () => {
         squares[ghost.currentIndex].classList.add(ghost.className, "ghost");
       }
       checkGameOver();
+      checkForWin();
     }, ghost.speed);
   }
   //check for a game over
